@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import { Phone, MessageCircle, Share2 } from "lucide-react";
+import FormDropdown from "./FormDropdown";
 
 const faqs = [
   {
-    pergunta: "Quantas aulas aulas por semana?",
+    pergunta: "Quantas aulas por semana?",
     resposta: "Uma vez por semana. Com aulas de robótica com duração de 2 horas e empreendedorismo com duração de 1 hora.",
   },
   {
@@ -80,7 +81,7 @@ export default function Contato() {
             className="
             col-span-2
             flex items-center justify-center gap-2
-            bg-accent-mint text-white
+            bg-blue-600 text-white
             px-4 py-3 rounded-full
             shadow-md
             transition-all duration-300
@@ -91,6 +92,11 @@ export default function Contato() {
             <span className="text-sm font-medium">Ligar agora</span>
         </a>
 
+        </div>
+
+        {/* FORMULÁRIO DROPDOWN */}
+        <div className="mt-6 w-full">
+          <FormDropdown />
         </div>
       </div>
 
