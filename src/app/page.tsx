@@ -2,7 +2,7 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import Sobre from "@/components/Sobre";
 import Carousel from "@/components/Carousel";
-import Professores from "@/components/Professores";
+import Professores from "@/components/Professores";// só um comentário para um novo commit
 import Contato from "@/components/Contato";
 import Footer from "@/components/Footer";
 
