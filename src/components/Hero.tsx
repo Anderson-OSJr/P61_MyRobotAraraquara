@@ -63,7 +63,7 @@ export default function Hero() {
         {/* LOGOMARCA + CIDADE */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col leading-tight items-center pointer-events-none">
           <Image
-            src="/images/MyRobot-Logomarca-Branca2.svg"
+            src="/images/Myrobot-Logomarca-Branca2.svg"
             alt="Logomarca"
             width={120}
             height={40}
