@@ -101,7 +101,7 @@ export default function Professores() {
       <div className="w-full max-w-5xl relative z-10">
 
         {/* TÍTULO */}
-        <h2 className="text-2xl font-semibold text-center bg-gray-200 rounded-full px-6 py-2 mb-6 shadow-lg">
+        <h2 className="text-2xl font-semibold text-center bg-gray-200 rounded-full px-6 py-2 mb-6 shadow-lg text-black">
           Nossos Professores
         </h2>
 
@@ -126,7 +126,7 @@ export default function Professores() {
                       <Image src={prof.thumb} alt="" fill className="object-contain" />
                     </motion.div>
 
-                    <motion.h3 layoutId={`name-${index}`} className="mt-4 text-center">
+                    <motion.h3 layoutId={`name-${index}`} className="mt-4 text-center text-black">
                       {prof.nome}
                     </motion.h3>
                   </motion.div>
