@@ -31,7 +31,7 @@ export default function Contato() {
 
       {/* CTA */}
       <div className="text-center max-w-md">
-        <h2 className="text-3xl font-semibold">
+        <h2 className="text-3xl font-semibold text-black">
           Comece agora com a gente 🚀
         </h2>
 
@@ -102,7 +102,7 @@ export default function Contato() {
 
       {/* FAQ */}
       <div className="mt-16 w-full max-w-md">
-        <h3 className="text-xl font-medium mb-6 text-center">
+        <h3 className="text-xl font-medium mb-6 text-center text-black">
           Dúvidas Frequentes
         </h3>
 
@@ -116,7 +116,7 @@ export default function Contato() {
                 className="border border-gray-200 rounded-xl p-4 cursor-pointer"
                 onClick={() => setOpen(isOpen ? null : index)}
               >
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center text-black">
                   <p className="font-medium">{faq.pergunta}</p>
                   <span>{isOpen ? "-" : "+"}</span>
                 </div>
@@ -126,7 +126,7 @@ export default function Contato() {
                     isOpen ? "max-h-40 mt-2" : "max-h-0"
                   }`}
                 >
-                  <p className="text-sm text-accent-gray">
+                  <p className="text-sm text-accent-gray text-black">
                     {faq.resposta}
                   </p>
                 </div>
